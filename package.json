@@ -16,8 +16,8 @@
     "ethers": "^6.15.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "viem": "^1.21.4",
-    "wagmi": "^1.4.5"
+    "viem": "^2.0.0",
+    "wagmi": "^2.9.10"
   },
   "devDependencies": {
     "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
