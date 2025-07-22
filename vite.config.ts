@@ -1,10 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { NodeGlobalsPolyfillPlugin } from '@esbuild-plugins/node-globals-polyfill'
-import { NodeModulesPolyfillPlugin } from '@esbuild-plugins/node-modules-polyfill'
 
+// Remover:
+// import { NodeModulesPolyfillPlugin } from '@esbuild-plugins/node-modules-polyfill'
 // @ts-ignore
-import rollupNodePolyFill from 'rollup-plugin-node-polyfills'
+// import rollupNodePolyFill from 'rollup-plugin-node-polyfills'
 
 export default defineConfig({
   plugins: [react()],
@@ -23,7 +24,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      plugins: [rollupNodePolyFill()],
+      // Remover plugins: [rollupNodePolyFill()],
     },
   },
 })

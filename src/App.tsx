@@ -1,4 +1,3 @@
-import React from 'react'
 import Mint from './Mint'
 
 export default function App() {
